@@ -13,6 +13,10 @@ function doIt() {
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
+
+	# install Atom packages
+	cd .atom
+	source package_installer.sh;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

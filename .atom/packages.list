@@ -1,21 +1,22 @@
-atom-beautify@0.29.2
+atom-beautify@0.29.7
 atom-jade@0.3.0
-atom-monokai@0.10.1
+atom-monokai@0.10.2
 autoclose-html@0.23.0
 autocomplete-modules@1.4.1
 autocomplete-paths@1.0.2
+expand-region@0.2.4
 git-diff-popup@0.1.8
 git-history@3.2.0
 git-plus@5.13.4
-git-time-machine@1.4.1
+git-time-machine@1.5.1
 highlight-line@0.11.1
 highlight-selected@0.11.2
 js-refactor@0.6.0
 linter@1.11.4
-linter-eslint@7.2.0
+linter-eslint@7.2.1
 monokai@0.18.0
 project-manager@2.9.7
 refactor@0.6.0
-split-diff@0.7.3
+split-diff@0.7.5
 
 

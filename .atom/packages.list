@@ -1,6 +1,7 @@
 atom-beautify@0.29.7
 atom-jade@0.3.0
 atom-monokai@0.10.2
+atom-typescript@8.9.1
 autoclose-html@0.23.0
 autocomplete-modules@1.4.1
 autocomplete-paths@1.0.2
@@ -12,11 +13,14 @@ git-time-machine@1.5.1
 highlight-line@0.11.1
 highlight-selected@0.11.2
 js-refactor@0.6.0
+language-ini@1.16.0
 linter@1.11.4
 linter-eslint@7.2.1
 monokai@0.18.0
 project-manager@2.9.7
 refactor@0.6.0
+script@3.7.1
 split-diff@0.7.5
+terminal-plus@0.14.5
 
 

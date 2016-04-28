@@ -32,8 +32,8 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
 'atom-workspace atom-text-editor:not([mini])':
-  'cmd-down': 'editor:move-line-down'
   'cmd-up': 'editor:move-line-up'
+  'cmd-down': 'editor:move-line-down'
 
 # expand-region
 'atom-text-editor':

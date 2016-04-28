@@ -4,6 +4,7 @@
       _analyticsUserId: "8069e0ce-826a-4120-bd53-242131ba5f78"
     js:
       indent_size: 2
+  "atom-typescript": {}
   "autoclose-html": {}
   "autocomplete-modules":
     vendors: [
@@ -26,13 +27,14 @@
     ]
   editor:
     fontFamily: "hack"
-    fontSize: 17
     invisibles: {}
     preferredLineLength: 120
   "exception-reporting":
     userId: "757f6ce6-cf27-cab7-5d9f-ec17d5a39efd"
   "git-history":
     showDiff: false
+  "language-babel":
+    transpileOnSave: true
   linter:
     errorPanelHeight: 112
   "linter-eslint":
@@ -40,6 +42,21 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 120
+".diff.source":
+  editor:
+    preferredLineLength: 120
 ".jade.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+".source.ts":
+  editor:
+    preferredLineLength: 120
+".source.tsx":
   editor:
     preferredLineLength: 120

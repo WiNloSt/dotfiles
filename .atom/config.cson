@@ -17,22 +17,36 @@
   core:
     disabledPackages: [
       "open-on-github"
+      "cursor-history"
     ]
     packagesWithKeymapsDisabled: [
       "git-diff-popup"
+      "cursor-history"
+      "last-cursor-position"
     ]
     themes: [
-      "one-dark-ui"
+      "atom-material-ui"
       "monokai"
     ]
+  "cursor-history":
+    flashOnLand: true
+    searchAllPanes: false
   editor:
     fontFamily: "hack"
+    fontSize: 15
     invisibles: {}
     preferredLineLength: 120
   "exception-reporting":
     userId: "757f6ce6-cf27-cab7-5d9f-ec17d5a39efd"
   "git-history":
     showDiff: false
+  "js-hyperclick":
+    extensions: [
+      ".js"
+      ".jsx"
+      ".json"
+      ".node"
+    ]
   "language-babel":
     transpileOnSave: true
   linter:
@@ -40,6 +54,8 @@
   "linter-eslint":
     globalNodePath: "/Users/BBoyKelvin/.nvm/versions/node/v5.8.0"
   "tree-view": {}
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

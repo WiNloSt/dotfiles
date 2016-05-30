@@ -32,6 +32,10 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
 'atom-workspace atom-text-editor:not([mini])':
+  # cursor-history
+  'ctrl-[': 'last-cursor-position:previous'
+  'ctrl-]': 'last-cursor-position:next'
+  # end cursor-history
   'cmd-up': 'editor:move-line-up'
   'cmd-down': 'editor:move-line-down'
 

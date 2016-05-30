@@ -10,6 +10,14 @@ function doIt() {
 		--exclude ".bashshrc.windows" -avh --no-perms . ~;
 	source ~/.bash_profile;
 
+	read -p "Do you want to update Atom packages? This will take a while. (y/n) " -n 1;
+	echo "";
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		installAtomPackages;
+	fi;
+}
+
+function installAtomPackages() {
 	# install Atom packages
 	cd .atom
 	source package_installer.sh;
@@ -25,3 +33,4 @@ else
 	fi;
 fi;
 unset doIt;
+unset installAtomPackages;

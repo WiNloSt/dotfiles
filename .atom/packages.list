@@ -2,10 +2,12 @@ aligner@0.22.0
 atom-beautify@0.29.7
 atom-jade@0.3.0
 atom-material-ui@1.2.13
+atom-monokai@0.10.4
 atom-typescript@8.10.2
 autoclose-html@0.23.0
 autocomplete-modules@1.5.0
 autocomplete-paths@1.0.2
+blame@0.10.0
 color-picker@2.1.1
 emmet@2.4.3
 expand-region@0.2.4
@@ -27,6 +29,7 @@ linter-eslint@7.2.2
 monokai@0.18.0
 pigments@0.29.0
 project-manager@2.9.7
+react@0.15.0
 refactor@0.6.0
 script@3.7.3
 split-diff@1.0.0

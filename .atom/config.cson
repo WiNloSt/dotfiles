@@ -56,6 +56,8 @@
     errorPanelHeight: 112
   "linter-eslint":
     globalNodePath: "/Users/BBoyKelvin/.nvm/versions/node/v5.8.0"
+  refactor:
+    highlightError: false
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -83,6 +85,9 @@
   welcome:
     showOnStartup: false
 ".babel.regexp.source":
+  editor:
+    preferredLineLength: 120
+".coffee.jsx.source":
   editor:
     preferredLineLength: 120
 ".diff.source":

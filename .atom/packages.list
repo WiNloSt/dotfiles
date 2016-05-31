@@ -1,14 +1,14 @@
 atom-beautify@0.29.7
 atom-jade@0.3.0
-atom-material-ui@1.2.12
-atom-monokai@0.10.4
+atom-material-ui@1.2.13
 atom-typescript@8.10.2
 autoclose-html@0.23.0
-autocomplete-modules@1.4.1
+autocomplete-modules@1.5.0
 autocomplete-paths@1.0.2
 color-picker@2.1.1
 emmet@2.4.3
 expand-region@0.2.4
+file-icons@1.7.13
 git-diff-popup@0.1.8
 git-history@3.2.0
 git-plus@5.14.0

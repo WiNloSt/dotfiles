@@ -23,6 +23,7 @@
       "git-diff-popup"
       "cursor-history"
       "last-cursor-position"
+      "turbo-javascript"
     ]
     themes: [
       "atom-material-ui"

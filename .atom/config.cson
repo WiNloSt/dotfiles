@@ -40,6 +40,8 @@
     userId: "757f6ce6-cf27-cab7-5d9f-ec17d5a39efd"
   "git-history":
     showDiff: false
+  "git-plus":
+    splitPane: "Right"
   "js-hyperclick":
     extensions: [
       ".js"

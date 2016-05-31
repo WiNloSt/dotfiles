@@ -53,6 +53,9 @@
     errorPanelHeight: 112
   "linter-eslint":
     globalNodePath: "/Users/BBoyKelvin/.nvm/versions/node/v5.8.0"
+  "terminal-plus":
+    style:
+      theme: "homebrew"
   "tree-view": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"

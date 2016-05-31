@@ -56,8 +56,20 @@
   "linter-eslint":
     globalNodePath: "/Users/BBoyKelvin/.nvm/versions/node/v5.8.0"
   "terminal-plus":
-    style:
-      theme: "homebrew"
+    ansiColors:
+      normal:
+        blue:
+          red: 0
+          green: 102
+          blue: 255
+          alpha: 1
+      zBright:
+        brightBlue:
+          red: 0
+          green: 136
+          blue: 255
+          alpha: 1
+    style: {}
   "tree-view": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"

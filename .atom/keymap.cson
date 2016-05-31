@@ -22,7 +22,7 @@
 # * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 #
 # If you're having trouble with your keybindings not working, try the
-# Keybinding Resolver: `Cmd+.` on OS X and `Ctrl+.` on other platforms. See the
+# Keybinding Resolver: `Cmd+.` on OS X and `Ctrl+.` on other platforms. See the,
 # Debugging Guide for more information:
 # * https://atom.io/docs/latest/hacking-atom-debugging#check-the-keybindings
 #
@@ -32,14 +32,17 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
 'atom-workspace atom-text-editor:not([mini])':
-  # cursor-history
-  'ctrl-[': 'last-cursor-position:previous'
-  'ctrl-]': 'last-cursor-position:next'
   # end cursor-history
   'cmd-up': 'editor:move-line-up'
   'cmd-down': 'editor:move-line-down'
 
-# expand-region
-'atom-text-editor':
+  # expand region
   'alt-up': 'expand-region:expand'
   'alt-down': 'expand-region:shrink'
+
+  # cursor-history
+  'ctrl-[': 'last-cursor-position:previous'
+  'ctrl-]': 'last-cursor-position:next'
+
+  # turbo javascript
+  'ctrl-enter': 'turbo-javascript:end-new-line'

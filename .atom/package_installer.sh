@@ -13,7 +13,7 @@ while read packageWithVersion; do
 
   if [[ $isGithubPackage && -n $package ]]; then
     # install Github packages
-    apm upgrade -c false $package
+    apm install $packageWithVersion
   elif [[ -n $package ]]; then
     # install missing packages
     if [[ ! -d "$HOME/.atom/packages/$package" ]]
@@ -22,3 +22,5 @@ while read packageWithVersion; do
     fi
   fi
 done <packages.list
+
+apm upgrade -c

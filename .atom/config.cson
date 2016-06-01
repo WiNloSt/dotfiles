@@ -18,6 +18,8 @@
     disabledPackages: [
       "open-on-github"
       "cursor-history"
+      "js-refactor"
+      "refactor"
     ]
     packagesWithKeymapsDisabled: [
       "git-diff-popup"
@@ -56,14 +58,7 @@
     errorPanelHeight: 112
   "linter-eslint":
     globalNodePath: "/Users/BBoyKelvin/.nvm/versions/node/v5.8.0"
-  refactor:
-    highlightError: false
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    syncHorizontalScroll: true
+  refactor: {}
   "terminal-plus":
     ansiColors:
       normal:

@@ -26,7 +26,7 @@ last-cursor-position@0.9.0
 linter@1.11.4
 linter-eslint@7.2.2
 monokai@0.18.0
-pigments@0.29.0
+pigments@0.29.1
 project-manager@2.9.7
 react@0.15.0
 refactor@0.6.0
@@ -36,5 +36,5 @@ terminal-plus@0.14.5
 tree-view-git-status@0.2.3
 wakatime@6.0.0
 
-es6-javascript@1.0.0
+WiNloSt/atom-es6-javascript
 

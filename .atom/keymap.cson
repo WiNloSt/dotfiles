@@ -45,4 +45,4 @@
   'ctrl-]': 'last-cursor-position:next'
 
   # turbo javascript
-  'ctrl-enter': 'turbo-javascript:end-line'
+  'ctrl-enter': 'es6-javascript:end-line'

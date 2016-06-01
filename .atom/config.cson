@@ -26,6 +26,7 @@
       "cursor-history"
       "last-cursor-position"
       "turbo-javascript"
+      "es6-javascript"
     ]
     themes: [
       "atom-material-ui"

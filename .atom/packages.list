@@ -8,6 +8,7 @@ autocomplete-modules@1.5.1
 autocomplete-paths@1.0.2
 blame@0.10.0
 color-picker@2.1.1
+disable-grammars@0.1.1
 emmet@2.4.3
 expand-region@0.2.4
 file-icons@1.7.13
@@ -31,7 +32,7 @@ project-manager@2.9.7
 react@0.15.0
 refactor@0.6.0
 script@3.7.3
-split-diff@1.0.0
+split-diff@1.0.1
 terminal-plus@0.14.5
 tree-view-git-status@0.2.3
 wakatime@6.0.0

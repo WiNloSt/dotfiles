@@ -30,7 +30,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "monokai"
+      "monokai-plus"
     ]
   "cursor-history":
     flashOnLand: true

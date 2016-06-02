@@ -26,7 +26,7 @@ language-ini@1.16.0
 last-cursor-position@0.9.0
 linter@1.11.4
 linter-eslint@7.2.2
-monokai@0.18.0
+monokai-plus@0.1.2
 pigments@0.29.1
 project-manager@2.9.7
 react@0.15.0

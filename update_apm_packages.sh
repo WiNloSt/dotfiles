@@ -10,7 +10,11 @@ apm list | sed -e '1,/Git/d' | while read line; do
   if [[ $line =~ $regex ]]; then
     packageName=${BASH_REMATCH[1]}
     packageRepo=${BASH_REMATCH[2]}
-    sed -i '' "s#$packageName#$packageRepo#g" .atom/packages.list
+    if [[ "$OSTYPE" == "linux-gnu" ]]; then
+      sed -i "s#$packageName#$packageRepo#g" .atom/packages.list
+    elif [[ "$OSTYPE" == "darwin"* ]]; then
+      sed -i '' "s#$packageName#$packageRepo#g" .atom/packages.list
+    fi
   fi
 done
 

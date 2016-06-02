@@ -35,6 +35,10 @@
   "cursor-history":
     flashOnLand: true
     searchAllPanes: false
+  "disable-grammars":
+    packages: [
+      "react"
+    ]
   editor:
     fontFamily: "hack"
     fontSize: 15

@@ -23,4 +23,4 @@ while read packageWithVersion; do
   fi
 done <packages.list
 
-apm upgrade -c
+apm upgrade -c false

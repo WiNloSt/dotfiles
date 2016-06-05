@@ -21,7 +21,7 @@ highlight-selected@0.11.2
 hyperclick@0.0.36
 js-hyperclick@1.4.2
 js-refactor@0.6.0
-language-babel@2.24.4
+language-babel@2.26.1
 language-ini@1.16.0
 last-cursor-position@0.9.0
 linter@1.11.4
@@ -32,10 +32,10 @@ project-manager@2.9.7
 react@0.15.0
 refactor@0.6.0
 script@3.7.3
-split-diff@1.0.1
+split-diff@1.0.2
 terminal-plus@0.14.5
 tree-view-git-status@0.2.3
-wakatime@6.0.0
+wakatime@6.0.2
 
-WiNloSt/atom-es6-javascript
+es6-javascript@1.0.0 WiNloSt/atom-es6-javascript
 

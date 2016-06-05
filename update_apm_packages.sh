@@ -11,9 +11,9 @@ apm list | sed -e '1,/Git/d' | while read line; do
     packageName=${BASH_REMATCH[1]}
     packageRepo=${BASH_REMATCH[2]}
     if [[ "$OSTYPE" == "linux-gnu" ]]; then
-      sed -i "s#$packageName#$packageRepo#g" .atom/packages.list
+      sed -i "/es6/ s#\$# $packageRepo#" .atom/packages.list
     elif [[ "$OSTYPE" == "darwin"* ]]; then
-      sed -i '' "s#$packageName#$packageRepo#g" .atom/packages.list
+      sed -i '' "/es6/ s#\$# $packageRepo#" .atom/packages.list
     fi
   fi
 done

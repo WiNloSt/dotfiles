@@ -44,6 +44,7 @@
     fontSize: 15
     invisibles: {}
     preferredLineLength: 120
+    showInvisibles: true
   "exception-reporting":
     userId: "757f6ce6-cf27-cab7-5d9f-ec17d5a39efd"
   "git-history":

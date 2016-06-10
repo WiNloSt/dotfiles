@@ -5,7 +5,17 @@
     js:
       indent_size: 2
   "atom-typescript": {}
-  "autoclose-html": {}
+  "autoclose-html":
+    forceInline: [
+      "title"
+      "h1"
+      "h2"
+      "h3"
+      "h4"
+      "h5"
+      "h6"
+      "p"
+    ]
   "autocomplete-modules":
     vendors: [
       "node_modules"

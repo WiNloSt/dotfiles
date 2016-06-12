@@ -25,6 +25,7 @@ while read line; do
       apm install $package
     fi
   fi
-done < packages.list
+done < ./.atom/packages.list
+source ./nonsync/uninstall_unused_packages.sh
 
 apm upgrade -c false

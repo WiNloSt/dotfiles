@@ -13,8 +13,7 @@ function doIt() {
 
 function installAtomPackages() {
 	# install Atom packages
-	cd .atom
-	source package_installer.sh
+	source nonsync/package_installer.sh
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

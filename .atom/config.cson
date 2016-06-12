@@ -2,6 +2,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "8069e0ce-826a-4120-bd53-242131ba5f78"
+    html:
+      indent_size: 2
     js:
       indent_size: 2
   "atom-typescript": {}
@@ -93,6 +95,8 @@
   "tree-view": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1465721009
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

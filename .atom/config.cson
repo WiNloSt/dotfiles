@@ -6,6 +6,8 @@
       indent_size: 2
     js:
       indent_size: 2
+    jsx:
+      indent_size: 2
   "atom-typescript": {}
   "autoclose-html":
     forceInline: [
@@ -57,6 +59,7 @@
     invisibles: {}
     preferredLineLength: 120
     showInvisibles: true
+    tabType: "soft"
   "exception-reporting":
     userId: "757f6ce6-cf27-cab7-5d9f-ec17d5a39efd"
   "git-history":

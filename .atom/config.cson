@@ -34,6 +34,7 @@
       "cursor-history"
       "js-refactor"
       "refactor"
+      "react"
     ]
     packagesWithKeymapsDisabled: [
       "git-diff-popup"
@@ -99,7 +100,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1465721009
+    lastInit: 1467112427
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

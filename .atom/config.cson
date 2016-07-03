@@ -32,8 +32,6 @@
     disabledPackages: [
       "open-on-github"
       "cursor-history"
-      "js-refactor"
-      "refactor"
       "react"
     ]
     packagesWithKeymapsDisabled: [
@@ -81,6 +79,11 @@
   "linter-eslint":
     globalNodePath: "/Users/BBoyKelvin/.nvm/versions/node/v5.8.0"
   refactor: {}
+  "split-diff":
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   "terminal-plus":
     ansiColors:
       normal:
@@ -100,7 +103,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1467112427
+    lastInit: 1467550408
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

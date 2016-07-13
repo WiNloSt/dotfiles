@@ -33,6 +33,7 @@
       "open-on-github"
       "cursor-history"
       "react"
+      "atom-typescript"
     ]
     packagesWithKeymapsDisabled: [
       "git-diff-popup"
@@ -103,7 +104,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1467550408
+    lastInit: 1468394468
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

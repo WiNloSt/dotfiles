@@ -34,6 +34,8 @@
       "cursor-history"
       "react"
       "atom-typescript"
+      "js-refactor"
+      "refactor"
     ]
     packagesWithKeymapsDisabled: [
       "git-diff-popup"
@@ -77,8 +79,7 @@
     transpileOnSave: true
   linter:
     errorPanelHeight: 112
-  "linter-eslint":
-    globalNodePath: "/Users/BBoyKelvin/.nvm/versions/node/v5.8.0"
+  "linter-eslint": {}
   refactor: {}
   "split-diff":
     ignoreWhitespace: true
@@ -104,7 +105,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1468394468
+    lastInit: 1470117818
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

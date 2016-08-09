@@ -82,6 +82,7 @@
   "linter-eslint": {}
   refactor: {}
   "split-diff":
+    diffWords: true
     ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
@@ -105,7 +106,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1470117818
+    lastInit: 1470709073
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

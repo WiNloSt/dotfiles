@@ -80,9 +80,9 @@
   linter:
     errorPanelHeight: 112
   "linter-eslint": {}
+  "linter-stylelint": {}
   refactor: {}
   "split-diff":
-    diffWords: true
     ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
@@ -106,7 +106,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1470709073
+    lastInit: 1471878069
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

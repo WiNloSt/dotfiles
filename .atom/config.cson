@@ -79,13 +79,11 @@
     transpileOnSave: true
   linter:
     errorPanelHeight: 112
-  "linter-eslint": {}
-  "linter-stylelint": {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
   refactor: {}
   "split-diff":
     ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
     syncHorizontalScroll: true
   "terminal-plus":
     ansiColors:
@@ -106,7 +104,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1471878069
+    lastInit: 1472011218
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

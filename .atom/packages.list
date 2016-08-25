@@ -1,7 +1,7 @@
-aligner@0.22.0
+aligner@0.22.1
 atom-beautify@0.29.10
 atom-jade@0.3.0
-atom-material-ui@1.3.3
+atom-material-ui@1.3.4
 atom-typescript@10.1.6
 autoclose-html@0.23.0
 autocomplete-modules@1.6.1
@@ -19,7 +19,7 @@ git-time-machine@1.5.3
 highlight-line@0.11.1
 highlight-selected@0.11.2
 hyperclick@0.0.37
-indent-guide-improved@1.4.8
+indent-guide-improved@1.4.9
 js-hyperclick@1.4.2
 js-refactor@0.7.3
 language-babel@2.33.0
@@ -27,7 +27,7 @@ language-ini@1.16.0
 last-cursor-position@0.9.0
 line-diff-details@1.3.5
 linter@1.11.16
-linter-eslint@7.2.3
+linter-eslint@7.2.4
 linter-stylelint@3.1.0
 merge-conflicts@1.4.4
 minimap@4.24.7

@@ -29,6 +29,19 @@
   autosave:
     enabled: true
   core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
       "open-on-github"
       "cursor-history"
@@ -36,6 +49,7 @@
       "atom-typescript"
       "js-refactor"
       "refactor"
+      "linter"
     ]
     packagesWithKeymapsDisabled: [
       "git-diff-popup"
@@ -45,7 +59,7 @@
       "es6-javascript"
     ]
     themes: [
-      "atom-material-ui"
+      "atom-dark-ui"
       "monokai-plus"
     ]
   "cursor-history":
@@ -57,7 +71,7 @@
     ]
   editor:
     fontFamily: "hack"
-    fontSize: 15
+    fontSize: 18
     invisibles: {}
     preferredLineLength: 120
     showInvisibles: true
@@ -81,6 +95,11 @@
     errorPanelHeight: 112
   "linter-eslint":
     disableWhenNoEslintConfig: false
+  nuclide:
+    installRecommendedPackages: true
+    use:
+      "nuclide-file-tree": false
+      "nuclide-side-bar": false
   refactor: {}
   "split-diff":
     ignoreWhitespace: true
@@ -104,9 +123,12 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1472011218
+    lastInit: 1474784894
   welcome:
     showOnStartup: false
+".ansi.text":
+  editor:
+    preferredLineLength: 120
 ".babel.regexp.source":
   editor:
     preferredLineLength: 120
@@ -114,6 +136,15 @@
   editor:
     preferredLineLength: 120
 ".diff.source":
+  editor:
+    preferredLineLength: 120
+".hack.html.text":
+  editor:
+    preferredLineLength: 120
+".hackfragment.source":
+  editor:
+    preferredLineLength: 120
+".hg-commit.text":
   editor:
     preferredLineLength: 120
 ".jade.source":

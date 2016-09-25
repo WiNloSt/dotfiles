@@ -97,6 +97,8 @@
     disableWhenNoEslintConfig: false
   nuclide:
     installRecommendedPackages: true
+    "nuclide-health":
+      toolbarJewel: "None"
     use:
       "nuclide-file-tree": false
       "nuclide-side-bar": false
@@ -119,7 +121,8 @@
           blue: 255
           alpha: 1
     style: {}
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":

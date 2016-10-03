@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+function docker-rmi() {
+  if [ $# -eq 0 ] || [ -z "$1" ]; then
+    echo 'no argument or first argument is empty wtf!???'
+    return
+  fi
+  echo deleting all $1 images
+  docker images $1 | grep $1 | awk '{print $3}' | xargs docker rmi
+}

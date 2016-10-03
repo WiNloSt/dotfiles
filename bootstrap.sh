@@ -12,6 +12,7 @@ function doIt() {
   --exclude "README.md" \
   --exclude "LICENSE-MIT.txt" \
   --exclude "update_apm_packages.sh" \
+  --exclude "nonsync/" \
   -avh --no-perms . ~;
   source ~/.bash_profile;
 }

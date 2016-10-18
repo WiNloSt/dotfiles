@@ -100,6 +100,7 @@
     "nuclide-health":
       toolbarJewel: "None"
     use:
+      "nuclide-code-format": false
       "nuclide-file-tree": false
       "nuclide-side-bar": false
   refactor: {}
@@ -121,12 +122,14 @@
           blue: 255
           alpha: 1
     style: {}
+  "tool-bar":
+    visible: false
   "tree-view":
     hideVcsIgnoredFiles: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1474784894
+    lastInit: 1476804114
   welcome:
     showOnStartup: false
 ".ansi.text":

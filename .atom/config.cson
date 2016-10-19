@@ -58,6 +58,7 @@
       "turbo-javascript"
       "es6-javascript"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "monokai-plus"
@@ -89,8 +90,7 @@
       ".json"
       ".node"
     ]
-  "language-babel":
-    transpileOnSave: true
+  "language-babel": {}
   linter:
     errorPanelHeight: 112
   "linter-eslint":
@@ -110,17 +110,9 @@
   "terminal-plus":
     ansiColors:
       normal:
-        blue:
-          red: 0
-          green: 102
-          blue: 255
-          alpha: 1
+        blue: "#0066ff"
       zBright:
-        brightBlue:
-          red: 0
-          green: 136
-          blue: 255
-          alpha: 1
+        brightBlue: "#0088ff"
     style: {}
   "tool-bar":
     visible: false
@@ -141,6 +133,9 @@
 ".coffee.jsx.source":
   editor:
     preferredLineLength: 120
+".css.source.styled":
+  editor:
+    preferredLineLength: 120
 ".diff.source":
   editor:
     preferredLineLength: 120
@@ -157,6 +152,9 @@
   editor:
     preferredLineLength: 120
 ".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+".languagebabel.ttlextension":
   editor:
     preferredLineLength: 120
 ".source.ts":

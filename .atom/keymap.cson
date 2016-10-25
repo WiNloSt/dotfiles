@@ -49,3 +49,6 @@
 
   # turbo javascript
   'ctrl-enter': 'es6-javascript:end-line'
+
+  # split diff
+  'ctrl-alt-t': 'split-diff:toggle'

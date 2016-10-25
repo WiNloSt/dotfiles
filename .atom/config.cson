@@ -97,6 +97,7 @@
     disableWhenNoEslintConfig: false
   nuclide:
     installRecommendedPackages: true
+    "nuclide-file-tree": {}
     "nuclide-health":
       toolbarJewel: "None"
     use:
@@ -121,7 +122,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1476804114
+    lastInit: 1477362270
   welcome:
     showOnStartup: false
 ".ansi.text":

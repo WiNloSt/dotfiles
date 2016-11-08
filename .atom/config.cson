@@ -28,6 +28,8 @@
   "autocomplete-plus": {}
   autosave:
     enabled: true
+  "color-picker":
+    preferredFormat: "HEX"
   core:
     customFileTypes:
       "source.ini": [
@@ -104,6 +106,8 @@
       "nuclide-code-format": false
       "nuclide-file-tree": false
       "nuclide-side-bar": false
+  pigments:
+    mergeColorDuplicates: true
   refactor: {}
   "split-diff":
     ignoreWhitespace: true
@@ -117,12 +121,11 @@
     style: {}
   "tool-bar":
     visible: false
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1477362270
+    lastInit: 1478576397
   welcome:
     showOnStartup: false
 ".ansi.text":

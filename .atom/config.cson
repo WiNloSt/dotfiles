@@ -74,7 +74,7 @@
     ]
   editor:
     fontFamily: "hack"
-    fontSize: 18
+    fontSize: 21
     invisibles: {}
     preferredLineLength: 120
     showInvisibles: true
@@ -97,6 +97,10 @@
     errorPanelHeight: 112
   "linter-eslint":
     disableWhenNoEslintConfig: false
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
   nuclide:
     installRecommendedPackages: true
     "nuclide-file-tree": {}
@@ -125,7 +129,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1478576397
+    lastInit: 1479886485
   welcome:
     showOnStartup: false
 ".ansi.text":
@@ -133,12 +137,14 @@
     preferredLineLength: 120
 ".babel.regexp.source":
   editor:
+    autoIndent: true
     preferredLineLength: 120
 ".coffee.jsx.source":
   editor:
     preferredLineLength: 120
 ".css.source.styled":
   editor:
+    autoIndent: true
     preferredLineLength: 120
 ".diff.source":
   editor:
@@ -152,15 +158,23 @@
 ".hg-commit.text":
   editor:
     preferredLineLength: 120
+".hover.reason.source.type":
+  editor:
+    preferredLineLength: 110
 ".jade.source":
   editor:
     preferredLineLength: 120
 ".js.jsx.source":
   editor:
+    autoIndent: true
     preferredLineLength: 120
 ".languagebabel.ttlextension":
   editor:
+    autoIndent: true
     preferredLineLength: 120
+".reason.source":
+  editor:
+    preferredLineLength: 110
 ".source.ts":
   editor:
     preferredLineLength: 120

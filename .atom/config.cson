@@ -119,9 +119,17 @@
   "terminal-plus":
     ansiColors:
       normal:
-        blue: "#0066ff"
+        blue:
+          red: 0
+          green: 102
+          blue: 255
+          alpha: 1
       zBright:
-        brightBlue: "#0088ff"
+        brightBlue:
+          red: 0
+          green: 136
+          blue: 255
+          alpha: 1
     style: {}
   "tool-bar":
     visible: false
@@ -129,7 +137,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1479886485
+    lastInit: 1480346958
   welcome:
     showOnStartup: false
 ".ansi.text":

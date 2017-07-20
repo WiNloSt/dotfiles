@@ -6,6 +6,7 @@
   editor = vim
 [alias]
   tree = log --graph --decorate --oneline
+  submodule-update-init= submodule update --init
   lg = !"git lg1"
   lg1 = !"git lg1-specific --all"
   lg2 = !"git lg2-specific --all"

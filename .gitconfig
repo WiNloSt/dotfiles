@@ -19,6 +19,7 @@
 
   checkout-pr = !"f() { git fetch $1 refs/pull/$2/head:pr/$2 -f; git checkout pr/$2; }; f"
   update-pr = !"f() { git pull $1 refs/pull/$(git status -bs | awk -F / '{print $2}')/head --rebase; }; f"
+  reset-pr = !"f() { git fetch $1 refs/pull/$(git status -bs | awk -F / '{print $2}')/head; git reset FETCH_HEAD --hard; }; f"
 
   delete-pr = !"git branch -d $(git branch | grep pr/*)"
   delete-merged-branch = !"git branch --merged | grep -v '*' | grep -v master | grep -v develop | xargs -n 1 git branch -d"

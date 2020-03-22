@@ -1,3 +1,16 @@
+" Vundle
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" plugins
+Plugin 'christoomey/vim-tmux-navigator'
+
+call vundle#end()
+filetype plugin indent on 
+
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized
@@ -120,4 +133,4 @@ endif
 :autocmd InsertLeave * set nocul
 
 " indent with space instead of tab
-set expandtab
+set autoindent expandtab

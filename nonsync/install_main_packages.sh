@@ -66,6 +66,7 @@ vim +PluginInstall +qall
 
 # tmux package manager (tpm)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+~/.tmux/plugins/tpm/scripts/install_plugins.sh
 
 # prezto (requires zsh)
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"

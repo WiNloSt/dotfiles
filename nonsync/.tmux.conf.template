@@ -24,3 +24,8 @@ set -g @plugin 'christoomey/vim-tmux-navigator'
 
 # TMUX plugin manager (keep at the bottom of tmux.conf)
 run -b '~/.tmux/plugins/tpm/tpm'
+
+# TMUX to open new (pane, window) using current pane's directory
+bind '\"' split-window -c \"#{pane_current_path}\"
+bind % split-window -h -c \"#{pane_current_path}\"
+bind c new-window -c \"#{pane_current_path}\"

@@ -5,6 +5,7 @@
   excludesfile = ~/.gitignore_global
   editor = vim
 	pager = diff-so-fancy | less --tabs=4 -RFX
+	ignorecase = false
 [alias]
   tree = log --graph --decorate --oneline
   submodule-update-init= submodule update --init

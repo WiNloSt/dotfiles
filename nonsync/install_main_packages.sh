@@ -7,11 +7,20 @@
 # OS specific installation
 if [[ "$OSTYPE" == "linux"* ]]; then
   # add other apt repository before update
+
+  ## yarn
   curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
+  ## github/hub
+  sudo add-apt-repository ppa:cpick/hub
+  sudo apt-get update
+
   # assume it's Ubuntu lol
   sudo apt update
+
+  # zsh
+  sudo apt install zsh
 
   # yarn
   sudo apt install --assume-yes yarn
@@ -30,6 +39,15 @@ if [[ "$OSTYPE" == "linux"* ]]; then
 
   # yarn
   sudo apt install --assume-yes yarn
+
+  # some other stuff
+  sudo apt install --assume-yes build-essential
+  sudo apt install --assume-yes python3.7
+  sudo apt install --assume-yes python3
+  sudo apt install --assume-yes python3-pip
+
+  # github/hub
+  sudo apt-get install hub
 
   if grep -q Microsoft /proc/version; then
     # WSL

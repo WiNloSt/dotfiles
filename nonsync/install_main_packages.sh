@@ -6,8 +6,15 @@
 
 # OS specific installation
 if [[ "$OSTYPE" == "linux"* ]]; then
+  # add other apt repository before update
+  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
   # assume it's Ubuntu lol
   sudo apt update
+
+  # yarn
+  sudo apt install --assume-yes yarn
 
   # curl
   sudo apt install --assume-yes curl

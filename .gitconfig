@@ -24,6 +24,8 @@
 
   delete-pr = !"git branch -d $(git branch | grep pr/*)"
   delete-merged-branch = !"git branch --merged | grep -v '*' | grep -v master | grep -v develop | xargs -n 1 git branch -d"
+  show-branch-not-in-remote = !"git branch | grep -Ev $(git branch --remote | grep -E $(git branch | grep -v '*' | tr '\n' '|'| tr -d ' ' | sed 's/|$//') | sed 's#origin/##' | sed 's/ *//g' | tr '\n' '|' | sed 's/|$//') | grep -v '*'"
+
 [push]
   default = current
 [filter "lfs"]
